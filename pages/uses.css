@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  background-color: whitesmoke;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+.gd__how {
+  font-family: "Grand Hotel", cursive;
+}
+.gd__i {
+  font-weight: 500;
+  font-style: italic;
+}
+.gd__button {
+  padding-top: 5vh;
+  font-weight: 500;
+}
+.gd__button > a {
+  text-decoration: none;
+  color: slateblue;
+}
+.gd__button a:nth-child(2) {
+  color: #303030;
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+}
