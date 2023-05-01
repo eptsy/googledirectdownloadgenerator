@@ -75,6 +75,9 @@ input[type="text"] {
 input[type="text"]:focus-visible {
   outline: none;
 }
+input {
+  width: 100%;
+}
 form > .fa-google-drive,
 form > .fa-link,
 form > .fa-headphones,
